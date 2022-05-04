@@ -30,7 +30,7 @@ class PlantViewModel(application: Application): ViewModel() {
 
     val plants = DataSource.plants
 
-    val workManager = WorkManager.getInstance(application)
+    private val workManager = WorkManager.getInstance(application)
 
     internal fun scheduleReminder(
         duration: Long,
