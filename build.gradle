@@ -17,7 +17,7 @@
 buildscript {
 
     ext {
-        work_version = "2.6.0"
+        work_version = "2.7.1"
         kotlin_version = "1.6.21"
     }
     repositories {
